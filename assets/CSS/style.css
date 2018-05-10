@@ -1,1 +1,76 @@
-Hello
+
+
+
+body{
+    margin:0;
+    padding:0;
+    font-family:'Arial', serif;
+    background-image: url("../images/background.png");
+        
+    
+}
+
+.nav{
+    background-color: white;
+    color: darkgray;
+    list-style: none;
+    text-align: right;
+    padding: 20px ;
+    overflow: hidden;
+    border-bottom:2px solid darkgray;
+
+    max-width: 960px;
+    margin: 0 auto;
+    background: whitesmoke;
+   
+    display: block;
+    
+    text-align: center;
+
+    
+  
+      }
+
+
+.nav > li {
+    display: inline-block;
+    padding:0 25px 0 25px;
+    float: right;
+}
+
+.nav > li > a {
+    text-decoration: none;
+    color: darkgray;
+    float: right;
+}
+
+.nav > li > a:hover {
+    color: teal
+}
+
+.logo {
+    color:white;
+    background-color: teal;
+    float: left;
+    padding:0px 25px 25px 25px;
+    
+    font-weight: bold;
+    font-family: 'Arial', serif;
+    position:relative;
+    top:0;
+    left:0;
+}
+
+.logo > a {
+    text-decoration: none;
+    color: white;
+}
+
+.content{
+    background-color: whitesmoke;
+    display: block;
+    padding: 20px;
+    text-align: center;
+    max-width: 960px;
+    margin: 0 auto;
+}
