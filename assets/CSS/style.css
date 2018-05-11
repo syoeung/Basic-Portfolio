@@ -1,6 +1,8 @@
 
 
 /* Style for Index.html */
+
+
 body{
     margin:0;
     padding:0;
@@ -16,32 +18,39 @@ body{
     list-style: none;
     text-align: right;
     padding: 20px ;
-    overflow: hidden;
+   
     border-bottom:2px solid darkgray;
 
-    max-width: 960px;
+    
     margin: 0 auto;
     background: whitesmoke;
    
     display: block;
-    
+    align-content: center;
     
 
-    
-  
       }
+.nav > ul {
+    list-style: none;
+	width: 960px;
+	margin: 0 auto;
+	padding: 0;
+
+}      
 
 
 .nav > li {
     display: inline-block;
     padding:0 25px 0 25px;
-    
+     
 }
 
 .nav > li > a {
     text-decoration: none;
     color: darkgray;
     float: right;
+   
+    
 }
 
 .nav > li > a:hover {
@@ -53,17 +62,23 @@ body{
     background-color: "";
     float: left;
     padding:0px 25px 25px 25px;
-    font-size: 28px;
+    font-size: 32px;
     font-weight: bold;
     font-family: 'Arial', serif;
     position:relative;
     top:0;
     left:0;
+    
+    
+   
 }
 
 .logo > a {
     text-decoration: none;
-    color: darkgray;
+    color: #4aaaa5;
+    
+    margin: 0 auto;
+    padding: 0 auto;
    
 }
 
@@ -71,10 +86,25 @@ body{
     background-color: whitesmoke;
     display: block;
     padding: 20px;
-    text-align: center;
+    text-align: left;
+    
     max-width: 960px;
     margin: 0 auto;
+    margin-top: 50px;
+    
 }
+
+
+img {
+    float: left; 
+    margin-right: 10px; 
+    margin-bottom: 10px;
+    padding:20px;
+    
+}
+
+
+
 
 
 
@@ -96,6 +126,7 @@ body{
     display: block;
     max-width: 960px;
     text-align: center;
+    margin-top:50px;
 }
 
 input[type=text], select, textarea {
@@ -122,9 +153,18 @@ h1{
     color: #4aaaa5;
    
     display: block;
-    padding: 20px;
+    padding: 10px;
    background: whitesmoke;
     max-width: 960px;
     margin: 0 auto;
+    border-bottom:2px solid darkgray;
+    font-size: 32px;
+    
     
 }
+
+
+
+ 
+ 
+ 
