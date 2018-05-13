@@ -178,5 +178,42 @@ h1{
 }
 
 
+ .portfolioPic {
+   width: 960px;
+     padding: 4px; 
+     background: whitesmoke; 
+     text-align: center;
+     
+    margin: 0 7px 14px 7px;
+}
+	 .portfolioPic p.btn {
+		margin: 0 auto;
+	}
+	 .portfolioPic p.btn a {
+        display: block; 
+        width: 200px; 
+        height: 200px; 
+        padding: 0 auto;
+		background:whitesmoke url(http://via.placeholder.com/200x200);
+		font-weight: bold; text-align: center; text-transform: uppercase;
+        text-decoration: none;
+        color: white;
+        margin:0 auto;
+        
+    }
+    
+    .contentP{
+        background-color: whitesmoke;
+        display: block;
+        
+        text-align: left;
+       
+        max-width: 960px;
+        margin: 0 auto;
+        
+        
+    }
+
+
 
  
